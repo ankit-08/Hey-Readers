@@ -1,0 +1,422 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Poppins&display=swap');
+
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+/* navbar */
+section {
+    margin: 20px 60px;
+}
+
+header {
+    margin: 30px;
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: max-content;
+
+}
+
+nav-home {
+    width: 100%;
+    display: inherit;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: 'Playfair Display';
+    ;
+    font-size: 35px;
+}
+
+nav-bar {
+    width: 100%;
+}
+
+nav-bar ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+nav-bar ul li {
+    margin: 10px 20px;
+}
+
+nav-bar ul li a:active,
+a:hover {
+    color: black;
+}
+
+nav-bar ul li a:hover {
+    color: rgb(181, 218, 46);
+}
+
+nav-bar ul li a {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    color: rgb(129, 130, 126);
+}
+
+.first {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 80px;
+}
+
+.para {
+    display: inherit;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 40%;
+}
+
+.para h1 {
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-size: 55px;
+    font-weight: 400px;
+    margin: 15px 0;
+}
+
+.para h4,
+.third .about-author,
+h4,
+.fifth .price-tag h4,
+.sixth h4 {
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-size: 25px;
+    font-weight: 400px;
+    margin: 15px 0;
+    text-align: start;
+    line-height: 30px;
+}
+
+.first hr,
+.second hr,
+.third hr,
+.sixth hr {
+    width: 80px;
+    margin: 10px 0;
+    border-top: 1.5px solid rgb(181, 218, 46);
+}
+
+.para p,
+.about-author p,
+.fifth h5,
+.sixth p {
+    color: rgb(117, 117, 117);
+    font-family: 'Poppins';
+    margin: 10px 0;
+    font-size: 15px;
+    text-align: start;
+    line-height: 27.8571px;
+}
+
+.first a {
+    width: 120px;
+    height: 50px;
+    background-color: black;
+    color: white;
+    font-family: 'Poppins';
+    font-size: 15px;
+    padding-top: 12px;
+    text-align: center;
+    align-self: baseline;
+}
+
+.second {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 80px;
+}
+
+.second h2,
+.third .about-author h2 {
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-size: 40px;
+    font-weight: 400px;
+    line-height: 52px;
+    margin: 15px 0;
+}
+
+.second p {
+    color: rgb(117, 117, 117);
+    font-family: 'Poppins';
+    margin: 20px 0;
+    text-align: center;
+    line-height: 27.8571px;
+    width: 600px;
+}
+
+.second .links {
+    display: flex;
+    flex-wrap: wrap;
+    width: 60%;
+    height: 150px;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.second .links a {
+    display: inherit;
+    background-color: black;
+    color: white;
+    width: max-content;
+    height: 40px;
+    margin: 5px 10px;
+    font-family: 'Poppins';
+    font-size: 18px;
+    font-weight: 700px;
+    padding: 10px 15px;
+    text-align: center;
+    align-items: center;
+    letter-spacing: 2px;
+}
+
+.third {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #fafafa;
+    padding: 40px;
+}
+
+.third .profile {
+    margin: 40px;
+    padding: 20px 20px;
+}
+
+.third .about-author {
+    display: inherit;
+    flex-direction: column;
+    margin: 40px;
+    padding: 20px 20px;
+
+}
+
+.third a,
+.fifth a,
+.sixth a {
+    color: rgb(181, 218, 46);
+    font-family: 'Poppins';
+    font-size: 14px;
+    font-weight: bolder;
+    letter-spacing: 2px;
+    font-style: normal;
+    line-height: 14px;
+}
+
+.third a:hover,
+.sixth a:hover,
+.fifth a:hover {
+    color: black;
+}
+
+.fourth .container-fourth {
+    width: 60%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 50px auto;
+}
+
+.fourth .container-fourth h3,
+.sixth h3 {
+    font-family: 'Playfair Display';
+    font-size: 28px;
+    line-height: 42px;
+    text-align: center;
+    margin: 10px 0;
+}
+
+.fourth .container-fourth h5 {
+    font-family: 'Playfair Display';
+    font-size: 20px;
+    line-height: 42px;
+    text-align: center;
+    margin: 10px 0;
+}
+
+.fifth {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #fafafa;
+}
+
+.fifth .book-types img {
+    width: 90%;
+    display: inherit;
+    justify-content: center;
+    margin: 10px auto;
+
+}
+
+.fifth .price-list {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.fifth .price-list .price-tag {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 25px;
+}
+
+.fifth hr {
+    width: 60px;
+    margin: 5px 0;
+    border-top: 1px solid rgb(0, 0, 0);
+}
+
+.sixth {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0 40px 0;
+}
+
+.sixth p {
+    width: 50%;
+    text-align: center;
+}
+
+.sixth .book-recomendations {
+    margin: 20px 0;
+    display: flex;
+    align-items: flex-start;
+
+}
+
+.sixth .book-recomendations div {
+    width: fit-content;
+}
+
+.sixth h3 {
+    text-align: start;
+}
+
+.sixth h6 {
+    font-family: 'Playfair Display';
+    font-size: 18px;
+    line-height: 27.8571px;
+    text-align: start;
+    margin: 10px 0;
+}
+
+.sixth .book-recomendations p {
+    text-align: start;
+    width: 300px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    background-color: black;
+    color: white;
+    padding: 20px 40px;
+
+}
+
+footer div {
+    width: 500px;
+    margin: 10px 20px;
+}
+
+footer .one,
+footer .two,
+footer .three {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+footer .one h6,
+footer .two .l,
+footer .three h6 {
+    font-family: 'Playfair Display';
+    font-size: 21px;
+    line-height: 31.5px;
+    text-align: start;
+    margin: 20px 0;
+}
+
+footer .one p {
+    color: rgb(255, 255, 255);
+    font-family: 'Poppins';
+    margin: 10px 0;
+    font-size: 15px;
+    text-align: left;
+    line-height: 27.8571px;
+    font-weight: 400px;
+}
+
+footer .two p .s {
+    font-family: 'Playfair Display';
+    font-size: 15px;
+    line-height: 31.5px;
+    text-align: start;
+    margin: 10px 0;
+    font-family: 'Playfair Display';
+    font-size: 21px;
+    line-height: 31.5px;
+    text-align: start;
+    margin: 10px 0;
+}
+
+footer form {
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+footer input {
+    width: 300px;
+    height: 40px;
+
+}
+
+footer button {
+    width: 200px;
+    height: 40px;
+    background-color: rgb(35, 33, 33);
+    margin: 10px 0;
+
+    border: 0;
+}
+
+footer button a {
+    color: white;
+    font-family: 'Poppins';
+
+    font-size: 14px;
+    text-align: center;
+}
